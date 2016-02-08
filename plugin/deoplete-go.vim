@@ -18,3 +18,7 @@ endif
 if !exists("g:deoplete#sources#go#sort_class")
   let g:deoplete#sources#go#sort_class = []
 endif
+
+if !exists("g:deoplete#sources#go#data_directory")
+  let g:deoplete#sources#go#data_directory = $HOME . '/.config/gocode/json'
+endif
